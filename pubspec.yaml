@@ -1,0 +1,69 @@
+name: movie_app
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by +.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# For more info, check the Android and iOS versioning docs.
+version: 1.0.0+1
+
+# Environment section specifies the SDK version for Flutter.
+environment:
+  sdk: ^3.7.0
+
+# Dependencies specify other packages your project requires.
+dependencies:
+  # The Flutter SDK is essential for Flutter apps.
+  flutter:
+    sdk: flutter
+
+  # Adds Cupertino Icons for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  # Riverpod for state management in Flutter.
+  flutter_riverpod: ^2.4.9
+
+  # Dio for making HTTP requests in the app.
+  dio: ^5.4.1
+
+  # GetIt for dependency injection in the app.
+  get_it: ^7.6.4
+
+# Dev dependencies are for packages you need only in the development environment.
+dev_dependencies:
+  # flutter_test helps in writing test cases for your Flutter app.
+  flutter_test:
+    sdk: flutter
+
+  # flutter_lints is a package that helps in enforcing good coding practices.
+  flutter_lints: ^5.0.0
+
+  # flutter_launcher_icons is used to generate app icons for Android and iOS.
+  flutter_launcher_icons: ^0.13.1
+
+# Flutter specific configuration.
+flutter:
+  # Ensures Material design icons are available for use in the app.
+  uses-material-design: true
+
+  # Specifies assets for the app, such as images or JSON files.
+  assets:
+    - assets/config/main.json
+    - assets/images/logo.png
+
+# Configuration for generating app launcher icons.
+flutter_icons:
+  # Configures icon generation for Android.
+  android: true
+  # Configures icon generation for iOS.
+  ios: true
+  # Specifies the path for the icon image to be used.
+  image_path: "assets/images/Icon.png"
+  # Ensures no alpha transparency in iOS icons.
+  remove_alpha_ios: true
