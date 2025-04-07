@@ -18,7 +18,7 @@
 ## 📄 UI Design Document
 
 Check out the complete UI breakdown and layout plan here:  
-📁 
+📁 https://github.com/muhammadwasif12/InternIntelligence_MovieVault_app/blob/main/movie%20app%20Ui.pdf
 
 ---
 
